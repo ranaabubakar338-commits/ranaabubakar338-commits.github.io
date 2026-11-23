@@ -1,0 +1,209 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rana Abu Bakar Zahid | Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #0f172a;
+            color: #f8fafc;
+            line-height: 1.7;
+        }
+
+        header {
+            padding: 25px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #334155;
+        }
+
+        header h2 {
+            color: #38bdf8;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        .hero {
+            padding: 110px 8%;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 46px;
+            margin-bottom: 15px;
+        }
+
+        .hero h1 span {
+            color: #38bdf8;
+        }
+
+        .hero p {
+            color: #cbd5e1;
+            max-width: 650px;
+            margin: auto;
+        }
+
+        .section {
+            padding: 65px 8%;
+        }
+
+        .section h2 {
+            color: #38bdf8;
+            margin-bottom: 20px;
+        }
+
+        .card {
+            background: #1e293b;
+            padding: 25px;
+            border-radius: 12px;
+            margin-top: 20px;
+            border: 1px solid #334155;
+        }
+
+        .card h3 {
+            margin-bottom: 10px;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .skills span {
+            background: #1e293b;
+            padding: 10px 18px;
+            border-radius: 8px;
+            border: 1px solid #334155;
+        }
+
+        .project-link {
+            display: inline-block;
+            margin-top: 15px;
+            color: #38bdf8;
+            text-decoration: none;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            border-top: 1px solid #334155;
+            color: #94a3b8;
+        }
+
+        @media (max-width: 600px) {
+            header {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            nav a {
+                margin: 0 7px;
+            }
+
+            .hero h1 {
+                font-size: 32px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h2>Rana Abu Bakar</h2>
+
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Hello, I'm <span>Rana Abu Bakar Zahid</span></h1>
+        <p>
+            Computer Science Student | Aspiring Developer
+            <br>
+            Welcome to my personal portfolio.
+            Here you can explore my academic work,
+            skills and projects.
+        </p>
+    </section>
+
+    <section class="section" id="about">
+        <h2>About Me</h2>
+        <div class="card">
+            <p>
+                I am a Computer Science student at the
+                University of Kamalia. I am interested in
+                technology, programming and computer systems.
+                I enjoy learning new skills and working on
+                practical academic projects.
+            </p>
+        </div>
+    </section>
+
+    <section class="section" id="skills">
+        <h2>My Skills & Interests</h2>
+        <div class="skills">
+            <span>Computer Fundamentals</span>
+            <span>Computer Organization</span>
+            <span>Assembly Language</span>
+            <span>Python (Learning)</span>
+            <span>Problem Solving</span>
+        </div>
+    </section>
+
+    <section class="section" id="projects">
+        <h2>My Projects & Assignments</h2>
+
+        <div class="card">
+            <h3>COAL Assignment 1</h3>
+            <p>
+                Computer Organization and Assembly Language.
+                This assignment covers computer components,
+                register transfers, arithmetic and logic
+                operations, binary adders, shift microoperations,
+                and RISC versus CISC.
+            </p>
+
+            <a class="project-link" href="#">
+                View Project →
+            </a>
+        </div>
+    </section>
+
+    <section class="section" id="contact">
+        <h2>Contact</h2>
+        <div class="card">
+            <p>GitHub: ranaabubakar338-commits</p>
+            <a class="project-link"
+               href="https://github.com/ranaabubakar338-commits">
+               Visit My GitHub Profile →
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Rana Abu Bakar Zahid. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
